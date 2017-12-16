@@ -1,0 +1,25 @@
+{
+  "name": "atom-js-snippets",
+  "version": "1.0.0",
+  "description": "Useful javascript snippets in atom.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaron-fe/atom-js-snippets.git"
+  },
+  "keywords": [
+    "atom",
+    "javascript",
+    "snippets",
+    "react"
+  ],
+  "author": "aaron-fe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaron-fe/atom-js-snippets/issues"
+  },
+  "homepage": "https://github.com/aaron-fe/atom-js-snippets#readme"
+}
