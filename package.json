@@ -8,14 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aaron-fe/atom-js-snippets.git"
+    "url": "https://github.com/aaron-fe/atom-js-snippets.git"
   },
-  "keywords": [
-    "atom",
-    "javascript",
-    "snippets",
-    "react"
-  ],
+  "keywords": ["atom", "javascript", "snippets", "react"],
   "author": "aaron-fe",
   "license": "ISC",
   "bugs": {
