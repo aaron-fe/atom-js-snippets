@@ -1,6 +1,6 @@
 {
   "name": "atom-js-snippets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Useful javascript snippets in atom.",
   "main": "index.js",
   "scripts": {
