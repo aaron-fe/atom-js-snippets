@@ -3,63 +3,10 @@
     'prefix': 'af'
     'body': '($1) => {}'
 
-  'import react':
-    'prefix': 'ireact'
-    'body': 'import * as React from \'react\';'
+  'console log':
+    'prefix': 'log'
+    'body': 'console.log($1)'
 
-  'react class component':
-    'prefix': 'ccomp'
-    'body': '''
-      class $1 extends React.Component {
-        constructor(props) {
-          super(props);
-          this.state = {};
-        }
-
-        render() {
-          return $2;
-        }
-      }
-    '''
-
-  'componentDidMount':
-    'prefix': 'cdm'
-    'body': 'componentDidMount() {}'
-
-  'componentDidUpdate':
-      'prefix': 'cdu'
-      'body': 'componentDidUpdate() {}'
-
-  'componentDidCatch':
-    'prefix': 'cdc'
-    'body': 'componentDidCatch() {}'
-
-  'componentWillMount':
-    'prefix': 'cwm'
-    'body': 'componentWillMount() {}'
-
-  'componentWillUnmount':
-    'prefix': 'cum'
-    'body': 'componentWillUnmount() {}'
-
-  'componentWillReceiveProps':
-      'prefix': 'cwrp'
-      'body': 'componentWillReceiveProps() {}'
-
-  'componentWillUpdate':
-      'prefix': 'cwu'
-      'body': 'componentWillUpdate() {}'
-
-  'shouldComponentUpdate':
-      'prefix': 'scu'
-      'body': 'shouldComponentUpdate() {}'
-
-  'this.setState':
-    'prefix': 'setstate'
-    'body': '''
-      this.setState((prevState, props) => {
-        return {
-          $1: $2
-        };
-      })
-    '''
+  'console error':
+    'prefix': 'err'
+    'body': 'console.error($1)'

@@ -1,0 +1,102 @@
+'.source.js':
+  'import react':
+    'prefix': 'ireact'
+    'body': 'import * as React from \'react\';'
+
+  'react class component':
+    'prefix': 'ccomp'
+    'body': '''
+      class $1 extends React.Component {
+        constructor(props) {
+          super(props);
+          this.state = {};
+        }
+
+        render() {
+          return $2;
+        }
+      }
+      $3
+    '''
+
+  'componentDidMount':
+    'prefix': 'cdm'
+    'body': '''
+      componentDidMount() {
+        $1
+      }
+      $2
+    '''
+
+  'componentDidUpdate':
+    'prefix': 'cdu'
+    'body': '''
+      componentDidUpdate() {
+        $1
+      }
+      $2
+    '''
+
+  'componentDidCatch':
+    'prefix': 'cdc'
+    'body': '''
+      componentDidCatch() {
+        $1
+      }
+      $2
+    '''
+
+  'componentWillMount':
+    'prefix': 'cwm'
+    'body': '''
+      componentWillMount() {
+        $1
+      }
+      $2
+    '''
+
+  'componentWillUnmount':
+    'prefix': 'cum'
+    'body': '''
+      componentWillUnmount() {
+        $1
+      }
+      $2
+    '''
+
+  'componentWillReceiveProps':
+    'prefix': 'cwrp'
+    'body': '''
+      componentWillReceiveProps() {
+        $1
+      }
+      $2
+    '''
+
+  'componentWillUpdate':
+    'prefix': 'cwu'
+    'body': '''
+      componentWillUpdate() {
+        $1
+      }
+      $2
+    '''
+
+  'shouldComponentUpdate':
+    'prefix': 'scu'
+    'body': '''
+      shouldComponentUpdate() {
+        $1
+      }
+      $2
+    '''
+
+  'this.setState':
+    'prefix': 'setstate'
+    'body': '''
+      this.setState((prevState, props) => {
+        return {
+          $1: $2
+        };
+      })
+    '''
